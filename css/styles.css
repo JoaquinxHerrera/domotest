@@ -1,0 +1,176 @@
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color: rgba(40,51,69,255);
+    
+}
+
+.left-side {
+    height: 100vh;
+    padding: 27vh 0% 0 14.5%;
+    
+}
+
+.left-side h1{
+    font-size: 3.25rem;
+}
+
+.p-subtitle{
+    font-size: 1.45rem;
+}
+
+
+.right-side {
+    background-image: url('/assets/imgs/asset-background.jpg'); 
+    background-size: cover; 
+    background-position: center;
+    height: 130vh;
+    margin-top: -8.4em;
+    
+}
+.nav{
+    padding: 3em 14%;
+}
+
+
+
+.navbar-nav .nav-link:hover {
+    color: white !important; 
+}
+
+.btn{
+    border-radius: 3px;
+    padding: 0.3em 1.3em;
+}
+
+.firstSection button{
+    padding: 0.6em 2.2em;
+}
+.second-section{
+    margin-top: -7em;
+}
+
+.w-40{
+    width: 40%;
+}
+
+
+.card-body img{
+    width: 4em;
+}
+
+.card .card-body .fs-6{
+    font-size: 1.1rem !important;
+}
+.section3{
+    background-color: rgba(56,113,255,255);
+    margin-top: -4.7em;
+    padding: 15em 14% 10em 14%
+}
+
+.section3 div h1{
+    font-size: 2.72rem;
+}
+
+.gap-45{
+    gap: 40px;
+}
+
+.icons{
+    padding-left: 24.5%;
+    margin-top: -3.1em;
+}
+
+.icons img{
+    width: 6em;
+}
+
+.gap-6{
+    gap: 5em;
+}
+
+.clients-container{
+    width: 100%;
+    overflow: hidden;
+}
+
+.clients{
+    display: flex;
+    padding: 2em 0;
+}
+
+.clients img{
+    transition: transform 0.5s;
+}
+.clients img:hover{
+    transform: scale(1.1);
+}
+
+
+
+.section4{
+    padding: 10em 14%
+}
+
+.section4 p{
+    font-size: 0.9rem;
+    letter-spacing: 1px;
+}
+
+
+.clients img{
+    width: 10em;
+}
+
+.section4cards{
+    margin-top: 10em;
+    margin-bottom: -15em;
+}
+
+.section4card{
+    background-color: rgba(56,113,255,255);
+    max-width: 48.5%;
+    height: 18em;
+    padding: 1em 0 0 1em;
+    
+    
+}
+
+.section4card img {
+    width: 83%;
+  
+    
+}
+.section4card a{
+    padding: 0.5em 2em;
+}
+
+.text-gray{
+    color: rgb(220, 220, 220);
+}
+
+footer{
+    padding: 10em 14% 2Em 14%
+}
+
+.iconsFooter img{
+    width: 20px;
+}
+footer ul {
+    list-style-type: none;
+    
+}
+
+footer ul li a{
+    text-decoration: none;
+}
+
+footer ul li a:hover{
+    color: white !important;
+}
+
+footer div ul p{
+    font-size: 0.9rem;
+    letter-spacing: 1px;
+}
