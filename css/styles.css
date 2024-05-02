@@ -3,12 +3,12 @@ body{
     margin: 0;
     padding: 0;
     background-color: rgba(40,51,69,255);
-    
+    overflow-x: hidden;
 }
 
 .left-side {
     height: 100vh;
-    padding: 27vh 0% 0 14.5%;
+    padding: 14% 0% 0 14.5%;
     
 }
 
@@ -29,6 +29,22 @@ body{
     margin-top: -8.4em;
     
 }
+@media (max-width: 768px) {
+    .right-side {
+        background-image: none; 
+    }
+    .w-40{
+        width: 90% !important;
+    }
+    .icons{
+        margin-top: 20px !important;
+    }
+    .section4card img{
+        display: none;
+    }
+}
+
+
 .nav{
     padding: 3em 14%;
 }
@@ -130,15 +146,14 @@ body{
 
 .section4card{
     background-color: rgba(56,113,255,255);
-    max-width: 48.5%;
+    width: 42rem;
     height: 18em;
     padding: 1em 0 0 1em;
-    
-    
+       
 }
 
 .section4card img {
-    width: 83%;
+    width: 82%;
   
     
 }
@@ -151,7 +166,7 @@ body{
 }
 
 footer{
-    padding: 10em 14% 2Em 14%
+    padding: 10em 14% 2em 14%
 }
 
 .iconsFooter img{
